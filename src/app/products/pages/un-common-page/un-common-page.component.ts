@@ -7,7 +7,7 @@ import { interval, Observable, tap } from 'rxjs';
   styleUrls: ['./un-common-page.component.scss'],
 })
 export class UnCommonPageComponent {
-  public name: string = 'Fernando';
+  public name: string = 'Miguel';
   public gender: 'male' | 'female' = 'male';
   public invitationMap = {
     male: 'invitarlo',
@@ -23,7 +23,7 @@ export class UnCommonPageComponent {
   public clients: string[] = [
     'Maria',
     'Pedro',
-    'Fernando',
+    'Miguel',
     'Hernando',
     'Eduardo',
     'Melissa',
@@ -42,9 +42,9 @@ export class UnCommonPageComponent {
 
   // KeyValue Pipe
   public person = {
-    name: 'Fernando',
-    age: 36,
-    address: 'Ottawa, Canada',
+    name: 'Miguel',
+    age: 44,
+    address: 'Michóacan, Mexico',
   };
 
   // Async Pipe
