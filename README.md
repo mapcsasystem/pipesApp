@@ -1,4 +1,30 @@
-# PipesApp
+# Pipes App
+
+### Descripción:
+
+La Muestra el funcionamiento de los pipes [Pipes](https://angular.io/api?query=pipe).
+
+### Tecnologías utilizadas
+
+#### Angular [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+
+#### Prime NG [Prime NG](https://primeng.org/installation) version 16.1.0.
+
+### Prime Icons [Prime Icons](https://primeng.org/icons)
+
+#### Prime Flex [Prime Flex](https://www.primefaces.org/primeflex/)
+
+#### NodeJS [Node](https://nodejs.org/dist/v18.16.0/) version 18.16.0.
+
+#### NPM [NPM](https://github.com/npm) version 9.8.1.
+
+#### Git [GIT](https://git-scm.com/) version 2.41.0.
+
+#### GitHub [GitHub](https://github.com/)
+
+#### GitHub-Pages [GitHub-Pages](https://pages.github.com/)
+
+[Repo](https://github.com/mapcsasystem/pipesApp.git)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
