@@ -8,18 +8,24 @@ const routes: Routes = [
   {
     path: '',
     component: BasicsPageComponent,
-  },
-  {
-    path: 'numbers',
-    component: NumbersPageComponent,
-  },
-  {
-    path: 'uncommon',
-    component: UnCommonPageComponent,
-  },
-  {
-    path: '**',
-    redirectTo: '',
+    children: [
+      {
+        path: '',
+        component: BasicsPageComponent,
+      },
+      {
+        path: 'numbers',
+        component: NumbersPageComponent,
+      },
+      {
+        path: 'uncommon',
+        component: UnCommonPageComponent,
+      },
+      {
+        path: '**',
+        redirectTo: '',
+      },
+    ],
   },
 ];
 
